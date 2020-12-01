@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import './App.css';
 import IdCard from './IdCard/IdCard'
 import Greetings from './Greetings/Greetings'
+import Random from './Random/Random'
+import BoxColor from './BoxColor/BoxColor'
 
 
 function App() {
@@ -32,6 +34,14 @@ function App() {
       <Greetings lang="fr">François</Greetings>      
       <Greetings lang="es">Amparo</Greetings>
       <Greetings lang="en">Richard</Greetings>
+
+      <h1>Iteration 3</h1>
+      <Random min={1} max={6}/>
+      <Random min={1} max={100}/>
+
+      <h1>Iteration 4</h1>
+      <BoxColor r={255} g={0} b={0} />
+      <BoxColor r={127} g={40} b={140} />
     </Fragment>
   );
 }

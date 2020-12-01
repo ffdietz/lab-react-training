@@ -3,6 +3,10 @@ body{
   margin: 30px;
 }
 
+h1{
+  color: #61dafb;
+  margin-top:40px;
+}
 
 .id-card-box {
   display: flex;
@@ -15,20 +19,15 @@ body{
 }
 
 .id-card img {
-  width: 150px;
-  margin: 20px;
+  margin: 50px;
 }
 
 .id-card-text{
   margin: 20px 30px;
 }
 
-h1{
-  color: #61dafb;
-  margin-top:40px;
-}
 
-.greetings-box {
+.text-box {
   font-size: 20px;
 
   border: 1px solid black;
@@ -36,7 +35,19 @@ h1{
   width: 70%;
 
   margin: 10px;
-  padding: 10px
+  padding: 5px
+}
+
+.box-color{
+  font-size: 20px;
+  color: white;
+  border-radius: 4px;
+  width: 71%;
+  height: 70px;
+
+  margin: 10px;
+  padding: 10px 5px;
+
 }
 
 

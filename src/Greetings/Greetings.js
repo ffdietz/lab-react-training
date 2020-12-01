@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Greetings = props => {
-    console.log({props});
+    
     let greet = '';
 
     switch(props.lang){
@@ -12,7 +12,7 @@ const Greetings = props => {
     }
     
      return (
-        <div class= "greetings-box">
+        <div class= "text-box">
             <p>
                 {greet} {props.children}
             </p>
