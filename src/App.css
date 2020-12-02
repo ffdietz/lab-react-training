@@ -41,12 +41,20 @@ h1{
 .box-color{
   font-size: 20px;
   color: white;
-  border-radius: 4px;
   width: 71%;
   height: 70px;
 
   margin: 10px;
   padding: 10px 5px;
+
+}
+
+
+.credit-card{
+  margin: 20px;
+  width: 400px;
+  height: 220px;
+  border-radius: 4px;
 
 }
 
